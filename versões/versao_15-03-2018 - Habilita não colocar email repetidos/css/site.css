@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Karma');
+body{
+    margin: 0;
+}
+.menu_superior{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: #FFF;
+    padding-left: 200px; 
+    padding-right: 200px;
+    z-index:99;
+}
+#logo{
+    width: 150px;
+    margin: 6px;
+}
+.content{
+    padding-top: 100px;
+    
+}
+#banner{
+    width: 80%;
+    height: 700px;
+    margin-left:20%;
+    position: absolute;
+    background-image: url(https://images.pexels.com/photos/838413/pexels-photo-838413.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
+    background-size: 88%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.box_content{
+    width: 30%;
+    height: 698px;;
+    position: relative;
+    background-color: dodgerblue;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 8px 10px 50px #000;
+}
+.box_content h2{
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-size: 140%;
+    font-weight: normal;
+    margin: 0px;
+    color: #FFF;
+    padding-top:40%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#maps{
+    width: 100%;
+    margin-top:30%;
+    margin-bottom: 0px;
+}
+/* Box colors */
+.bg-1 { 
+	color: #37474f;
+    margin-left: 80%;
+    position: fixed;
+    z-index: 999;
+    margin-top:10px;    
+}
+
+/* Common button styles */
+.button {
+	float: left;
+	min-width: 150px;
+	max-width: 250px;
+	display: block;
+	margin: 1em;
+	padding: 1em 2em;
+	border: none;
+	background: none;
+	color: inherit;
+	vertical-align: middle;
+	position: relative;
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+    cursor: pointer;
+}
+.button:focus {
+	outline: none;
+}
+.button > span {
+	vertical-align: middle;
+}
+/* Wapasha */
+.button.button--wapasha {
+	background: #37474f;
+	color: #fff;
+	-webkit-transition: background-color 0.3s, color 0.3s;
+	transition: background-color 0.3s, color 0.3s;
+}
+.button--wapasha.button--inverted {
+	background: #fff;
+	color: #37474f;
+}
+.button--wapasha::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 2px solid #3f51b5;
+	z-index: -1;
+	border-radius: inherit;
+	opacity: 0;
+	-webkit-transform: scale3d(0.6, 0.6, 1);
+	transform: scale3d(0.6, 0.6, 1);
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+	-webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+	transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+.button--wapasha.button--inverted::before {
+	border-color: #7986cb;
+}
+.button--wapasha:hover {
+	background-color: #fff;
+	color: #3f51b5;
+}
+.button--wapasha.button--inverted:hover {
+	background-color: #37474f;
+	color: #7986cb;
+}
+.button--wapasha:hover::before {
+	-webkit-transform: scale3d(1, 1, 1);
+	transform: scale3d(1, 1, 1);
+	opacity: 1;
+}
+
+.sessao3{
+    position: absolute;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#FFF;
+    font-weight: lighter 300;
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+.sessao3 h1{
+    text-align: center;
+    margin: 0 auto;
+    color:#000;
+    padding: 20px;
+    height: 40px;
+    transition: all 0.3s;
+    margin:0px 2px 0px 2px;
+}
+.sessao3 h2{
+    text-align: center;
+    margin: 0 auto;
+    background-color:#ce6b00;
+    padding: 20px;
+    height: 40px;
+    transition: all 0.3s;
+    margin:0px 2px 0px 2px;
+}
+.sessao3 h2:hover{
+    background: #d67513;
+}
+.sessao3 ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.sessao3 ul li {
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    padding-top: 1px;
+}
+.sessao3 li ul {
+    margin-top: 81px;
+    width: 100%;
+    position: absolute;    
+    top: 0;
+    display: none;
+    
+}
+.sessao3 ul li{
+    text-align: center;
+    
+}
+.sessao3 ul li a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    background: #ff9626;
+    padding: 10px;
+    margin:0px 2px 0px 2px;
+    border-bottom: 0;
+    transition: all 0.3s;
+}
+.sessao3 ul li a:hover{
+    background: #d67513;
+}
+/* Fix IE. Hide from IE Mac \*/
+* html ul li { float: left; }
+* html ul li a { height: 1%; }
+/* End */
+.sessao3 ul {
+    list-style: none;
+
+}
+.sessao3 li:hover ul { 
+    display: block; 
+    transition: all 0.3s;
+    z-index:99;
+}
+#ico_estados{
+    position: absolute;
+    width: 40px;
+    left: 10px;
+    top:2px;
+}
+
+.maps{
+    margin-top: 300px;
+    position: relative;
+}
+.maps h2{
+    padding-top:100px;
+    position: absolute;
+    font-family: 'Karma', serif;
+    font-size: 30px;
+    text-align: center;
+    width: 30%;
+}
+iframe{
+    border-radius: 10px;
+}
+#l{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid 2px dodgerblue;
+    outline: none;
+    padding-left: 5px;
+}
+#busca{
+    
+}
+#local{
+    margin-left: 33%;;
+    position: absolute;
+    width: 52%;
+    height: 500px;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #EEE;
+    margin-top: 55%;
+}

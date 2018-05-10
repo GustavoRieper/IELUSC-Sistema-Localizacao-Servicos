@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.content{
+    margin-left: 0px;
+}
+#titulo_pg{
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    font-size: 40px;
+    position: absolute;
+    margin-left:80px;
+}
+.dados{
+    position: relative;
+    left: 50%;
+    margin-left: -25%;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.dados h1{
+    font-size: 15px;
+    padding: 5px 5px 5px 10px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+.dados span{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5%;
+    
+}
+#ico_edit{
+    width: 20px;
+    position: absolute;
+    right: 0;
+}
+#campo_edit{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5%;
+    border-radius: 7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: solid 1px #000;
+    padding: 5px;
+    outline: none;
+    width: 400px;
+}

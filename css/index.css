@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+.content{
+    
+    margin-left:80px;
+}
+#seu_local{
+    font-size: 20px;
+}
+#local{
+    position: absolute;
+    right: 0px;
+    
+}
+#local iframe{
+    border-radius: 10px;
+    margin-right: 10px;
+}
+#busca_local{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #4a86e8;
+    border: solid 1px #FFF;
+    border-radius: 5px;
+    color: #FFF;
+    outline: none;
+    cursor: pointer;
+}
+#l{
+    width: 300px;
+    margin-right: 30px; 
+}
+#campo_edit{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5%;
+    border-radius: 7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: solid 1px #000;
+    padding: 5px;
+    outline: none;
+    width: 400px;
+}

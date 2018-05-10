@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+    margin: 0;
+    background-color: #f8f8f8;
+}
+@keyframes trasicao{
+    0% {opacity: 0.0}
+    100% {opacity: 1.0;}
+}
+.menu_superior{
+    width: 100%;
+    height: 95px;
+    background-color: #FFF;
+    position: fixed;
+    z-index: 10;
+    margin-top: -1%;
+    top: 13px;
+}
+.content_menu{
+    width: 76%;
+    margin-left: 12%;
+    height: 100%;
+}
+.content_menu img{
+    width: 161px;
+    height: 71px;
+    margin: 12px;
+    position: absolute;
+}
+.menu{
+    left: 18%;
+    position: absolute;
+    top: 34px;
+    height: 40px;
+}
+.menu ul{
+    text-align: center;
+    width: 636px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial,Helvetica,sans-serif;
+    border-right: solid 1px rgb(88, 85, 81);
+    text-decoration: none;
+    transition: all 0.7s;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #848079;
+}
+.menu ul li:hover{
+    color: #3f7eff;
+    transition: all 0.7s;
+    font-size: 15px;
+    border-right: solid 2px rgb(88, 85, 81);
+}
+
+#btn_login{
+    position: absolute;
+    text-align: right;
+    right: 5%;
+    top: 20%;
+}
+#btn_login span a{
+    background-color: rgb(62, 158, 239);
+    padding: 15px 70px 15px 70px;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #FFF;
+    text-decoration: none;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+#btn_login span a:hover{
+    background-color:rgb(43, 104, 156);
+    transition: all 0.8s;
+}
+/*----- Fim da edição do menu ----*/
+.conteudo{
+    width: 74%;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 1%;
+    position: relative;
+    animation: trasicao 0.8s;
+}
+hr{
+    border: none;
+    background-color: #848079;
+    height: 1px;
+}
+.banner img{
+    width: 100%;
+    height: 523px;
+    position: relative;
+    z-index: -1;
+}
+.opc_banner ul{
+    width: 100%;
+}
+
+.opc_banner ul li{    
+    display: inline-block; 
+    text-align: center;
+    margin-left: -40px;
+    top: 475px;
+    position: relative;
+    height: auto;   
+    font-family: 'Open Sans', Arial,Helvetica,sans-serif;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 2px;
+    width: 312px;
+    border-radius:0px 10px 10px 0px;
+    background-color:rgb(43, 104, 156);
+    
+}
+.opc_banner ul li a{
+    text-decoration: none;
+    color: #FFF;
+    padding: 0px 15px 15px 0px;
+    transition: all 0.5s;
+}
+.opc_banner ul li a:hover{
+    border-left: solid 2px #FFF;
+    padding-left: 30px;
+    transition: all 0.5s;
+}
+/* ----- Fim da edição do Conteudo 1 ------*/
+.conteudo2{
+    margin-top: 50px;
+    pok
+}
+.conteudo2 h2{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 7%;
+}
+.conteudo2 p{
+    font-family: 'Montserrat', sans-serif;
+    width: 500px;
+    text-align: left;
+    right: 0;
+    font-size: 90%;
+    color: #848079;
+    margin-left: 30%;
+}
+/* ------- Fim da Edição do conteúdo 2 ---------*/
+.rodape{
+    width: 100%;
+    height: 200px;
+    background-color: #FFF;
+    position: relative;
+}
+.content_footer{
+    width: 76%;
+    margin-left: 13%;
+}
+.content_footer img{
+    width: 115px;
+    height: 136px;
+    padding-top: 30px;
+    padding-left: 70px;
+    position: absolute;
+}
+.desenvolvido{
+    width: 200px;
+    padding-top: 60px;
+    margin-left: 20%;
+    font-family: 'Open Sans', Arial,Helvetica,sans-serif;
+    color: #848079;
+    font-size: 85%;
+    position: absolute;
+}
+.local{
+    width: 200px;
+    padding-top: 60px;
+    margin-left: 40%;
+    font-family: 'Open Sans', Arial,Helvetica,sans-serif;
+    color: #848079;
+    font-size: 85%;
+    position: absolute;
+}
+.redes_sociais{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 70px;
+}
+.redes_sociais img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    padding: 5px;
+    transition: all 0.5s;
+}
+.redes_sociais img:hover{
+    opacity: 0.7;
+    transition: all 0.5s;
+}
+
+/* ------------------------------------------------ Nossa Proposta ----------------------------*/
+.conteudo_ns_pro{
+    padding-top: 100px;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 200px;
+    margin-top: 1%;
+    animation: trasicao 0.8s;
+}
+.ns_pro h2{
+    font-family: 'Montserrat', sans-serif;
+}
+.ns_pro p{
+    font-family: 'Montserrat', sans-serif;
+    width: 800px;;
+    text-align: left;
+    right: 0;
+    font-size: 90%;
+    color: #848079;
+}
+
+/* ---------------------------------------------- Contrate ------------------------------------*/
+.conteudo_contrate{
+    padding-top: 100px;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 200px;
+    margin-top: 1%;
+    animation: trasicao 0.8s;
+}
+.contrate{
+    font-family: 'Montserrat', sans-serif;
+}
+#contrate_fundo{
+    width: 100%;    
+    height: 500px;
+    position: relative;
+    z-index: 0;
+}
+#slogan{
+    width: 25%;
+    position: absolute;
+    z-index: 1;
+    margin-left: 23%;
+    margin-top: 130px;    
+}
+#btlogin{
+    text-align: center;
+    margin-top: 100px;
+}
+#btlogin span{    
+}
+#btlogin span a{
+    background-color: rgb(62, 158, 239);
+    padding: 20px 50px 20px 50px;;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #FFF;
+    text-decoration: none;
+    transition: all 0.8s;
+    cursor: pointer;
+    font-size: 90%;
+    padding-top: -50px;
+
+}
+#btlogin span a:hover{
+    background-color:rgb(43, 104, 156);
+    transition: all 0.8s;
+}
+#texto_log{
+    width: 300px;
+    text-align: left;
+    margin-left: 50%;
+    margin-top: -50px;
+    position: absolute;
+    color: #848079;
+}
+#btlogin h2{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* ---------------------------------- Seja Contratado ------------------------*/
+#texto_reg{
+    width: 350px;
+    text-align: left;    
+    margin-top: 50px;
+    position: absolute;
+    color: #848079;
+}
+
+#btreg span{
+    position: absolute;    
+    z-index: 99;
+    margin-left: 45%;
+    margin-top: -50px;
+    width: 500px;;
+}
+#btreg span a{
+    background-color: rgb(62, 158, 239);
+    padding: 20px 50px 20px 50px;;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #FFF;
+    text-decoration: none;
+    transition: all 0.8s;
+    cursor: pointer;
+    font-size: 90%;
+
+}
+#btreg span a:hover{
+    background-color:rgb(43, 104, 156);
+    transition: all 0.8s;
+}
+
+/*------------------------------------ Contato ---------------------------------*/
+.conteudo_contato{
+    padding-top: 100px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 1%;
+    animation: trasicao 0.8s;
+    
+}
+.contato{
+ 
+}
+.contato h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #848079;
+}
+#sobre{
+    font-family: 'Montserrat', sans-serif;
+    color: #848079;
+    width: 80%;
+    margin-left: 10%;
+}
+.conteudo_equipe{
+    text-align: center;
+    width: 22%;
+    margin-left: 39%;
+}
+.conteudo_equipe img{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+}
+.conteudo_equipe h3{
+    font-family: 'Roboto', sans-serif;
+    color: #848079;
+    padding-bottom: 10px;
+    border-bottom:  solid 1px #000;
+    text-align: center;
+}
+.conteudo_equipe h4{
+    font-family: 'Open Sans', sans-serif;
+    color: #848079;
+    font-size: 80%;
+    text-align: center;
+}
+#sobre_gus{
+    width: 130%;
+    margin-left: -15%;
+    font-family: 'Montserrat', sans-serif;
+    color: #848079;
+}
+.contact{
+    margin-bottom: 100px;
+}
+.contact img{
+    width: 100%;
+}
+.contact form{
+    margin-top: 50px; 
+    position: relative;
+    
+}
+.contact input{
+    border: solid 1px rgb(181, 177, 169);
+    outline: none;
+    padding: 10px 30px 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+#mensagem{
+    width: 300px;
+    height: 130px;
+    padding: 0;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    resize: none;
+}
