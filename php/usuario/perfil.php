@@ -36,7 +36,7 @@ include '../admin/conexao.php';
                     <h1>Sobrenome:</h1>                    
                         <input type="text" name="sobrenome" id="campo_edit" value="<?php echo $user['sm_usuario'];?>">
                     <h1>Email:</h1>                    
-                        <input type="email" name="email" id="campo_edit" disabled value="<?php echo $user['email_usuario'];?>">
+                        <input type="email" class="no_edit" name="email" id="campo_edit" disabled value="<?php echo $user['email_usuario'];?>" title="Não é possivel alterar o email.">
                     <h1>CEP:</h1>
                         <input type="text" name="cep" id="campo_edit" value="<?php echo $user['cep_usuario'];?>">
                     <h1>Senha:</h1>
@@ -55,7 +55,8 @@ include '../admin/conexao.php';
                         <input type="text" name="cidade" id="campo_edit" value="<?php echo $user['cidade_usuario'];?>">
                     <h1>Estado:</h1>
                         <input type="text" name="uf" id="campo_edit" value="<?php echo $user['estado_usuario'];?>">
-                    <input type="submit" value="Salvar">
+                    <br>
+                    <input type="submit" id="botao" class="botao_centro" value="Salvar">
                 </form>
             </div>
             

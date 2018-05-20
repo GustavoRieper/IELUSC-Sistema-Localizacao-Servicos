@@ -48,3 +48,10 @@
     outline: none;
     width: 400px;
 }
+.no_edit{
+    cursor: no-drop;
+}
+.botao_centro{
+    margin-left: 35%;
+    margin-top: 20px;
+}

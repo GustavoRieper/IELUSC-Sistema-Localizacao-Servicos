@@ -276,4 +276,22 @@ body {
     background-color: dodgerblue; 
     cursor: pointer;
 }
-
+#botao{
+    padding: 10px 40px 10px 40px;
+    border: none;
+    background-color:dodgerblue;   
+    color: #FFF;
+    border-top: 2px solid dodgerblue;
+    border-right: 2px solid dodgerblue;
+    transition: 1s all;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 15px;
+    
+}
+#botao:hover{
+    border-right: 2px solid #000;
+    border-top: 2px solid #000;
+    transition: 1s all;
+    text-shadow: 2px 2px 2px #656266;
+}
