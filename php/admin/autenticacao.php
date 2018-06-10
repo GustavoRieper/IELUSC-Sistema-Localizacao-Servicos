@@ -23,7 +23,11 @@ include 'conexao.php';
 //                echo "Você foi autenticado com sucesso! aguardo um instante.";
                 echo "<script> window.location='../usuario/index.php';</script>";                
             }
-            else{
+            if else{
+                $sql        = mysqli_query($conexao, "SELECT * FROM profissionais WHERE email_usuario = '$email' AND senha_usuario = '$senha'") or die (mysql_error);
+                $row = mysqli_num_rows($sql);
+                
+            }else{
                 echo '';
                 echo '<script> window.setTimeout(window.location.href = "erro_login.php",5000)</script>';
             }

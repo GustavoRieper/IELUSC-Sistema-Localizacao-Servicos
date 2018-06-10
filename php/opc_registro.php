@@ -56,7 +56,7 @@
 <!--            <img id="error" src="http://pizzarialukas.com.br/app/webroot/img/erro.png">-->
             <h2>Registrar como:</h2>
                 
-            <a id="erro" href="#">
+            <a id="erro" href="registro-pro.php">
                 <input type="submit" value="Profissional" id="Logar" >
             </a>
             <a id="erro" href="registro.php">
