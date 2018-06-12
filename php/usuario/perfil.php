@@ -55,7 +55,8 @@ include '../admin/conexao.php';
                         <input type="text" name="cidade" id="campo_edit" value="<?php echo $user['cidade_usuario'];?>">
                     <h1>Estado:</h1>
                         <input type="text" name="uf" id="campo_edit" value="<?php echo $user['estado_usuario'];?>">
-                    <input type="submit" value="Salvar">
+                    <br>
+                    <input type="submit" id="botao" class="botao_centro" value="Salvar">
                 </form>
             </div>
             
