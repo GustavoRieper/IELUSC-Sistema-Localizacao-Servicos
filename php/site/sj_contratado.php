@@ -6,7 +6,8 @@
         <title>FIND</title>
         <style>
             #menu_sjcontratado{
-                color: chartreuse;
+                color: #000;
+                font-weight: 550;
             }
         </style>
     </head>
@@ -24,7 +25,7 @@
                         Se você realiza trabalhos e gostaria de ficar visível para a comunidade, nosso sistema é perfeito para você.
                         Nele é possível se cadastrar como autônomo, MEI, Médias empresas e Grandes empresas.
                         Assim, o contratante terá a possibilidade de contratá-lo mesmo que não o conheça.
-                    <span><a href="../registro.php">Registre-se</a></span>
+                    <span><a href="../registro-pro.php">Registre-se</a></span>
                     
                 </div>
             </div>

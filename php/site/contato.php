@@ -6,7 +6,8 @@
         <title>FIND</title>
         <style>
             #menu_contato{
-                color: chartreuse;
+                color: #000;
+                font-weight: 550;
             }
         </style>
     </head>
@@ -30,7 +31,7 @@
                     <h4>Desenvolvedor</h4>
                     <p id="sobre_gus">
                     Cursando Sistemas para Internet na Faculdade IELUSC de Joinville.
-                        Criativo, curioso e autodidata, busco auxiliar a comunidade com os conhecimentos que possuo na área da tecnologia.
+                        Criativo e curioso, busco auxiliar a comunidade com os conhecimentos que possuo na área da tecnologia.
                     </p>
                 </div>
                 <h2>CONTATO</h2>

@@ -6,7 +6,8 @@
         <title>FIND</title>
         <style>
             #menu_contrate{
-                color: chartreuse;
+                color: #000;
+                font-weight: 550;
             }
         </style>
     </head>

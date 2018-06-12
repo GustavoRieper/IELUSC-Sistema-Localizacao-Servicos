@@ -6,7 +6,8 @@
         <title>FIND</title>
         <style>
             #menu_nsproprosta{
-                color: chartreuse;
+               color: #000;
+                font-weight: 550;
             }
         </style>
     </head>
@@ -19,10 +20,10 @@
                 <p>A Find é um projeto que originou-se no ano letivo de 2018 na Faculdade IELUSC de Joinville. Com o intuito de criar um sistema para facilitar a contratação de serviços tanto para o contratante quanto o contratado.<br><br><br>
 Nossa proposta é listar todos profissionais de todas as área cadastradas em nosso sistema e disponibilizar ao público de acordo com a localização de quem está contratando.<br><br>
 
-Também disponibilizamos uma avaliação de serviços passados do profissional, dessa forma conseguimos informações seguras quando solicitamos um profissional na qual não conhecemos.<br><br>
+Também disponibilizamos uma avaliação de serviços realizado pelo profissional, dessa forma conseguimos informações seguras quando solicitamos um profissional na qual não conhecemos.<br><br>
 
 O Sistema da FIND disponibiliza para seus usuários uma agenda para contratação, onde nela temos a disponibilidade do profissional, de maneira fácil e rápida é possível fechar negócio.<br><br>
-Para o profissional, de forma opcional, o sistema disponibiliza o pagamento direto pelo site/app, transferindo automaticamente o valor para conta bancária registrada.
+Para o profissional, de forma opcional, o sistema disponibiliza o pagamento direto pelo site/app, transferindo automaticamente o valor para conta bancária registrada. Além de forcecermos um ambiente para gerenciar sua carreira, pois além da agenda, temos também o painel admisnitrativo onde é possivel armazenar os contatos de forncedores, renda e despeças mensais.
                 </p>
             </div>
         </div>
