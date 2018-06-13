@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="icon" type="image/png" href="../../logo_tcc/ico.png">
-        <link rel="stylesheet" type="text/css" href="../../css/site_novo.css">
+        <link rel="icon" type="image/png" href="logo_tcc/ico.png">
+        <link rel="stylesheet" type="text/css" href="css/site_novo.css">
         <title>FIND</title>
         <style>
             #menu_nsproprosta{

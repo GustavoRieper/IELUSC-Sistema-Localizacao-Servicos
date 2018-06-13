@@ -11,7 +11,7 @@
     <body>    
         <img id="img_fundo" src="https://static.pexels.com/photos/327540/pexels-photo-327540.jpeg">
         <div class="box bg-3">
-            <a href="site.php">
+            <a href="../index.php">
                 <button class="button button--pipaluk button--inverted  button--round-s button--text-thick">Voltar ao Site</button>	
             </a>
         </div>

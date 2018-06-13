@@ -3,7 +3,7 @@
 <body>
     <div class="rodape">
         <div class="content_footer">
-            <img src="../../logo_tcc/ico.png"> 
+            <img src="logo_tcc/ico.png"> 
             <div class="desenvolvido">
                 <span>2018 - Desenvolvido por Gustavo Rieper<br>Cursando Sistemas para Internet</span>
             </div>
@@ -15,9 +15,9 @@
                 </span>
             </div>
             <div class="redes_sociais">
-                <a href="https://www.facebook.com/FIND-262433941164249/" target="_blank"><img src="../../imagens/site/face_logo.png"></a>
-                <a href="https://https://instagram.com/gustavorieper" target="_blank"><img src="../../imagens/site/insta_logo.png"></a>
-                <a href="https://https://twitter.com/gustavorieper" target="_blank"><img src="../../imagens/site/twitter_logo.png"></a>
+                <a href="https://www.facebook.com/FIND-262433941164249/" target="_blank"><img src="imagens/site/face_logo.png"></a>
+                <a href="https://instagram.com/gustavorieper" target="_blank"><img src="imagens/site/insta_logo.png"></a>
+                <a href="https://twitter.com/gustavorieper" target="_blank"><img src="imagens/site/twitter_logo.png"></a>
             </div>
         </div>
     </div>

@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="icon" type="image/png" href="../../logo_tcc/ico.png">
-        <link rel="stylesheet" type="text/css" href="../../css/site_novo.css">
+        <link rel="icon" type="image/png" href="logo_tcc/ico.png">
+        <link rel="stylesheet" type="text/css" href="css/site_novo.css">
+        <meta charset="utf-8">
+        <meta name="description" content="FIND é um projeto que visa disponibilizar a lista de profissionais de sua região. Utilizando o mapeamento, trazemos uma lista do profissional desejado conforme sua localização.">
+        <meta name="author" content="Gustavo Rieper">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Servicos,Trabalho,Profissionais">
         <title>FIND</title>
         <style>
             #menu_inicio{
@@ -19,12 +24,12 @@
                 <nav class="opc_banner">
                     <ul>
                         <li><a id="ns_proposta" href="ns_proposta.php">Nossa Proposta</a></li>
-                        <li><a id="abrir_chamado" href="../login.php">Abrir Chamado</a></li>
+                        <li><a id="abrir_chamado" href="login.php">Abrir Chamado</a></li>
                         <li><a id="qr_contratar" href="contrate.php">Quero Contratar</a></li>
                         <li><a id="qr_contratado" href="sj_contratado.php">Quero ser Contratado</a></li>
                     </ul>
                 </nav>
-                    <img src="../../imagens/site/fd_inicio.png">                
+                    <img src="imagens/site/fd_inicio.png">                
             </div>
             <div class="conteudo2">
                 <h2>O que é a FIND</h2>

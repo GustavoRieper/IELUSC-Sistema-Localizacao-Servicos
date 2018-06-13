@@ -1,0 +1,1 @@
+Criado banco de dados de acordo com o nome do servidor.

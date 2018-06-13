@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="icon" type="image/png" href="../../logo_tcc/ico.png">
-        <link rel="stylesheet" type="text/css" href="../../css/site_novo.css">
+        <link rel="icon" type="image/png" href="logo_tcc/ico.png">
+        <link rel="stylesheet" type="text/css" href="css/site_novo.css">
         <title>FIND</title>
         <style>
             #menu_contato{
@@ -26,7 +26,7 @@
                 <h2>EQUIPE</h2>
                 <hr>
                 <div class="conteudo_equipe">
-                    <img src="../../imagens/site/gustavo.jpg">
+                    <img src="imagens/site/gustavo.jpg">
                     <h3>Gustavo Rieper</h3>
                     <h4>Desenvolvedor</h4>
                     <p id="sobre_gus">
@@ -37,7 +37,7 @@
                 <h2>CONTATO</h2>
                 <hr>
                 <div class="contact">
-                    <img src="../../imagens/site/duvida_contato.PNG">
+                    <img src="imagens/site/duvida_contato.PNG">
                     <form action="#" method="post">
                         <input type="text" name="nome" id="nome" placeholder="Nome Completo*" required>
                         <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required>
