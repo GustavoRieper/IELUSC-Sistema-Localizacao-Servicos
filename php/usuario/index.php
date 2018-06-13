@@ -17,7 +17,7 @@ include '../admin/conexao.php';
         function mapa(){
             var LOCALIDADE = l.value;
             LOCALIDADE = LOCALIDADE.replace(/ /g,"+");
-            local.innerHTML = "<iframe width='600' height='450' frameborder='0' style='border:0' src='https://www.google.com/maps/embed/v1/place?key=AIzaSyCXlg-UheeFvXNuGdat0w-R5L0cVxoTr34&q=" + LOCALIDADE + "' allowfullscreen></iframe>";
+            local.innerHTML = "<iframe width='600' height='450' frameborder='0' style='border:0' src='https://www.google.com/maps/embed/v1/place?key=AIzaSyBTsT3BQAGJ1DbmUnrRHZIrV9DfJBiikJk=" + LOCALIDADE + "' allowfullscreen></iframe>";
         }
         
 
